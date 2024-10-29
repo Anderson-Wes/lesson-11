@@ -10,15 +10,18 @@
     </head>
     <body>
         <main>
-            <section>
+            <section class="top-section">
                 <a href="#">Contact</a>
                 <h1>
                     Contact us to get <br />
                     free support
                 </h1>
                 <form>
-                    <label for="description"></label>
-                    <textarea name="description" id="description" placeholder="Description"></textarea>
+                    <div class="textarea">
+                        <label for="description"></label>
+                        <textarea name="description" id="description" placeholder="Description"></textarea>
+                    </div>
+
                     <div class="right-form">
                         <label for="subject"></label>
                         <input type="subject" id="subject" placeholder="Subject"/>
@@ -26,15 +29,15 @@
                         <label for="name-surname"></label>
                         <input type="name-surname" id="name-surname" placeholder="Name / Surname"/>
 
-                        <label for="eMail"></label>
-                        <input type="email" id="eMail" placeholder="Email" />
+                        <label for="email"></label>
+                        <input type="email" id="email" placeholder="Email" />
 
                         <button class="send-button" type="button">Send</button>
                     </div>
                 </form>
             </section>
-            <section class="info-block">
-                <div class="contact-info-mail">
+            <section class="mid-section">
+                <div class="contact-info">
                     <div class="ellipse">
                         <img src="img/mail-icon.png" alt="email-icon" />
                     </div>
@@ -46,7 +49,7 @@
                         >edu.e.education@yahoo.edu.ge
                     </a>
                 </div>
-                <div class="contact-info-phone">
+                <div class="contact-info">
                     <div class="ellipse">
                         <img src="img/Phone-icon.png" alt="phone-icon" />
                     </div>
@@ -54,7 +57,7 @@
                     <a href="tel:+995591666456">+995 591 66 6456</a>
                     <a href="tel:+995591666876">+995 591 66 6876</a>
                 </div>
-                <div class="contact-info-address">
+                <div class="contact-info">
                     <div class="ellipse">
                         <img src="img/location-icon.png" alt="location-icon" />
                     </div>
@@ -67,7 +70,7 @@
                     </a>
                 </div>
             </section>
-            <section>
+            <section class="bottom-section">
                 <a href="#">Photos</a>
                 <h1>
                     See our latest photos <br />
@@ -128,22 +131,22 @@
                     </a>
                 </ul>
             </div>
-            <div class="contact-info">
-                <h2>Contact Info</h2>
-                <div>
-                    <img src="" alt="mail-icon" />
-                    <a href="mailto:info@yahoo.com">info@yahoo.com</a>
-                </div>
-                <div>
-                    <img src="" alt="phone-icon" />
-                    <a href="tel:+995591111999">+ 995 591 111 999</a>
-                </div>
-                <div>
-                    <img src="" alt="phone-icon" />
-                    <a href="https://maps.app.goo.gl/WY9iGzRgCx1Y99VZ9"
-                        target="_blank">
-                        Mail st, Chicago Illinois
-                    </a>
+            <div>
+                <h3>Contact Info</h3>                
+                <div class="contact-info-footer">
+                    <div class="footer-icons">
+                        <img class="mail-icon" src="img/mail-icon.png" alt="mail-icon" />
+                        <img class="phone-icon" src="img/Phone-icon.png" alt="phone-icon" />
+                        <img class="location-icon" src="img/location-icon.png" alt="location-icon" />
+                    </div>
+                    <div class="contact-info-description">
+                        <a href="mailto:info@yahoo.com">info@yahoo.com</a>
+                        <a href="tel:+995591111999">+ 995 591 111 999</a>
+                        <a href="https://maps.app.goo.gl/WY9iGzRgCx1Y99VZ9"
+                            target="_blank">
+                            Mail st, Chicago Illinois
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
