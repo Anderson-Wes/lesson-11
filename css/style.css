@@ -22,7 +22,6 @@ h1 {
 
 form {
     display: flex;
-    height: 300px;
     justify-content: flex-start;
     margin-bottom: 51px;
 }
